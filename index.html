@@ -1,12 +1,189 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Lab # 1</title>
-</head>
-<body>
+<!DOCTYPE HTML>
+<html lang="en-GB">
+  <head>
+    <meta charset=utf-8>
+    <meta name="Author" content="Oberdht Valentina Vasilievna">
+    <meta name="Description" content="Example Web - site, Web Developer's 
+    Handbook. HTML Reference.">
+    <meta name="Keywords" content="Web - site, development, HTML reference">
     
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Ex.1</title>  
+
+    <div class="navbar">
+      <a href="./index.html">Ex.1</a>
+      <a href="./Ex. 2.html">Ex.2</a>
+      <a href="./Ex. 3.html">Ex.3</a>
+    </div>
+    
+  </head>
+
+  <body>
+    <style>
+     body {
+        font-family: "Montserrat", sans-serif;
+        background-color: antiquewhite;
+        padding: 40px;
+      }
+
+     p{
+         color: black;
+         font-family: Arial, sans-serif; 
+         font-size: 100%; 
+      }
+  
+     br{
+        color: rgb(255, 228, 196);
+      }
+
+     h1{
+      text-align: center;
+      font-size: 100px;
+      line-height: 80px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: coral;
+     }
+
+     h2{
+      text-align: center;
+      font-size: 40px;
+      line-height: 80px;
+      color:darksalmon
+     }
+
+     h3{
+      font-size: 30px;
+      line-height: 40px;
+      margin-left: 45px;
+      color:darksalmon
+     }
+
+     h4{
+      font-size: 20px;
+      line-height: 40px;
+      color:darksalmon
+     }
+     
+     ol{
+      color:darkgoldenrod
+     }
+
+     p{
+      color:burlywood
+     }
+
+     ol{
+      font-size: 30px;
+      line-height: 60px;
+     }
+
+     a{
+      margin-left: 15px;
+      color: darkgoldenrod;
+     }
+      </style>
+    
+    <div class="wrapper">
+        <!-- Main content -->
+        <div class="main-content">
+          <!-- About me -->
+          <div class="about-container">
+            <h2 id="Types" lang="en-GB" title="Type" style="color: darksalmon; margin-bottom: -25px;">Candy Shop</h2>
+            <h1 class="my-name"> Sweet Dream</h1>
+            <h4 style="color: darksalmon; margin-top: 150px;">We have different types of desserts and can make your day<br class="Paragraph" title="1">
+              Also we can make sweets of your <u title="Choice" id="Choice">choice</u> 
+              Ingredients are natural</h4>
+            <p class="my-descr" dir="rtl" style="color: darksalmon; font-size: 25px;">
+              Make your day
+              <br>
+              <small lang="en-GB" id="ingredients" class="ingredients" style="font-size: 20px;">Sweet Dream</small> 
+            </p>
+            <hr size="3" color="fffff" width="100%" >
+          </div>
+          <!-- Menu -->
+          <div class="Proposals">
+            <h2>Proposals</h2>
+            <h3>Desserts</h3>
+            <img src="./img/Cake.jpg" alt="Cake photo" width="45%" class="photo" dir="require('package');" style="float: right; margin-top: -30px;" />
+                
+            <ol class="list">
+                <li class="item">
+                    <a>Strawberry Cake </a>
+                    <span class="item-price"
+                >........................<i class="Price" lang="Price" id="Price" >100</i></span>
+                </li>
+                <li class="item">
+                    <a>Chocolate Cake </a>
+                    <span class="item-price"
+                >.........................<i class="Price" lang="Price" id="Price">150</i></span>
+                </li>
+                <li class="item">
+                  <a>Vanilla Cake </a>
+                  <span class="item-price"
+              >.................................<i class="Price" lang="Price" id="Price">120</i></span>
+              </li>
+              <li class="item">
+                <a>Cheesecake </a>
+                <span class="item-price"
+            >.................................<i class="Price" lang="Price" id="Price">117</i></span>
+            </li>
+            <li class="item">
+              <a>Panna Cotta </a>
+              <span class="item-price"
+           >................................<i class="Price" lang="Price" id="Price">210</i></span>
+          </li>
+          <br>
+
+            </ol>
+            <h3>Drinks</h3>
+            <img src="./img/Drink.jpg" alt="Drink photo" width="45%" class="photo" dir="require('package');" style="float: right; margin-top: -70px; clip-path: inset(0px 0px 30px 0px);" />
+            <ol class="list">
+                <li class="item">
+                    <a>Coca-cola </a>
+                    <span class="item-price"
+                >......................................<i class="Price" lang="Price" id="Price" >50</i></span>
+                </li>
+                <li class="item">
+                    <a>Milk shake</a>
+                    <span class="item-price"
+                >....................................<i class="Price" lang="Price" id="Price">60</i></span>
+                </li>
+                <li class="item">
+                  <a>Smoozy </a>
+                  <span class="item-price"
+              >..........................................<i class="Price" lang="Price" id="Price">60</i></span>
+              </li>
+              <li class="item">
+                <a>Fresh juice </a>
+                <span class="item-price"
+            >...................................<i class="Price" lang="Price" id="Price">80</i></span>
+            </li>
+            <li class="item">
+              <a>Pinacolada </a>
+              <span class="item-price"
+           >..................................<i class="Price" lang="Price" id="Price">100</i></span>
+           </li>
+            </ol>
+
+          </div>
+          <h4 class="Contacts" lang="en-GB" dir="ltr" style="margin-top: 50px; margin-bottom: -5px;"> Contacts</h4> 
+          <p>+000 000 000 <br>
+            wwww@gmail.com
+          </p>
+          <h4 class="Add info" lang="en-GB" dir="rtl" >Add information</h4>
+          <p dir="rtl" style="margin-top: -15px; margin-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
+        </div>
+     <aside class="sidebar">
+     <img src="./img/Caffe.png" alt="Caffe photo" width="100%" class="photo" />
+  
+    </div>
+  </body>    
+
 </html>
