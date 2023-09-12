@@ -1,0 +1,75 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: antiquewhite;
+    padding: 40px;
+  }
+
+ p{
+     color: black;
+     font-family: Arial, sans-serif; 
+     font-size: 100%; 
+  }
+
+ br{
+    color: rgb(255, 228, 196);
+  }
+
+ h1{
+  text-align: center;
+  font-size: 100px;
+  line-height: 80px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: coral;
+ }
+
+ h2{
+  text-align: center;
+  font-size: 40px;
+  line-height: 80px;
+  color:darksalmon
+ }
+
+ h3{
+  font-size: 30px;
+  line-height: 40px;
+  margin-left: 45px;
+  color:darksalmon
+ }
+
+ h4{
+  font-size: 20px;
+  line-height: 40px;
+  color:darksalmon
+ }
+ 
+ ol{
+  color:darkgoldenrod
+ }
+
+ p{
+  color:burlywood
+ }
+
+ ol{
+  font-size: 30px;
+  line-height: 60px;
+ }
+
+ a{
+  margin-left: 15px;
+  color: darkgoldenrod;
+ }
+
+ #CP{
+  float: right; 
+  margin-top: -30px;
+ }
+
+ h4:first-child{
+  color: darksalmon;
+ }
+
+ .Contacts::after{
+  content: " !";
+  font-size: 25px;
+ }
