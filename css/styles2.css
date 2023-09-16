@@ -1,0 +1,107 @@
+.media{
+    color: aliceblue;
+  }
+  title{
+    color: aqua;
+  }
+  
+  a{
+    margin-left: 15px;
+    color: goldenrod;
+    background-color: rgb(35, 35, 35);
+  }
+    body{
+        background-color: black;
+    }
+    
+    header{
+        background-color: rgb(19, 19, 19);
+    }
+
+    h1{
+      color: aliceblue;
+      font-size: 150px;
+      text-align: center;
+      vertical-align: middle;
+      margin-top: -50px;
+    }
+    h2{
+      color: aliceblue;
+      font-size: 80px;
+      text-align: center;
+      margin-bottom: auto;
+      margin-top: -15px;
+    }
+
+    h3{
+      font-size: 50px;
+    }
+
+    h4{
+      text-align: left;
+      margin-left: 30px;
+      font-size: 20px;
+      color: rgb(214, 215, 216);
+    }
+
+    .section{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+    }
+
+    .content{
+        width: 1300px;
+        height: 700px;
+        margin: 20px;
+        margin-left: 70px;
+        box-sizing: border-box;
+        float: left;
+        text-align: center;
+        border-radius: 20px;
+        cursor: pointer;
+        padding-top: 10px;
+        box-shadow: 0 0px 28px rgba(255, 255, 255, 0.25), 0 5px 10px rgba(255, 255, 255, 0.22);
+        transition: .4s;
+        background-color:black;
+    }
+    .content:hover{
+        box-shadow: 0 0px 6px rgba(255, 255, 255, 0.16), 0 3px 6px rgba(255, 255, 255, 0.23);
+        transform: translate(0px -8px);
+    }
+
+    button{
+        text-align: center;
+        background-color: rgb(0, 219, 219);
+        color: aliceblue;
+        font-size: 30px;
+        width: 100%;
+        padding: 25px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        margin-top: 14px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;       
+    }
+    
+    button:hover{
+      background-color:gold;
+        color: aliceblue;
+        font-size: 35px;
+        padding: 21px;
+    }
+
+    img{
+      margin: auto;
+    }
+
+    .add{
+      width: 300px;
+      height: 120px;
+      margin-top: -15px;
+    }
