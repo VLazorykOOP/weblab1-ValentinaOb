@@ -1,216 +1,201 @@
-<!DOCTYPE HTML>
-<html lang="en-GB">
-  <head>
-    <meta charset=utf-8>
-    <meta name="Author" content="Oberdht Valentina Vasilievna">
-    <meta name="Description" content="Example Web - site, Web Developer's 
-    Handbook. HTML Reference.">
-    <meta name="Keywords" content="Web - site, development, HTML reference">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="/css/styles1.css" type="text/css"/>
-    <link rel="stylesheet" href="/filter.js" type="text/css"/>
-    <title>Ex.3</title>  
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-
-<div class="navbar">
-    <a href="./index.html">Ex.1</a>
-    <a href="./Ex. 2.html">Ex.2</a>
-    <a href="./Ex. 3.html">Ex.3</a>
-  </div>
-
-</head>
-
-<body>
-
     <style>
-      .media{
-        color: aliceblue;
-      }
-      title{
-        color: aqua;
-      }
-      
-      a{
-        margin-left: 15px;
-        color: goldenrod;
-        background-color: rgb(35, 35, 35);
-      }
-        body{
-            background-color: black;
-        }
-        
-        header{
-            background-color: rgb(19, 19, 19);
-        }
+    h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    h2{
+        font-size: 20px;
+        text-align: right;
+        margin-right: 150px;
+    }
+    h3{
+        font-size: 20px;
+        text-align: center;
+    }
 
-        h1{
-          color: aliceblue;
-          font-size: 150px;
-          text-align: center;
-          vertical-align: middle;
-          margin-top: -50px;
-        }
-        h2{
-          color: aliceblue;
-          font-size: 80px;
-          text-align: center;
-          margin-bottom: auto;
-          margin-top: -15px;
-        }
-
-        h3{
-          font-size: 50px;
-        }
-
-        h4{
-          text-align: left;
-          margin-left: 30px;
-          font-size: 20px;
-          color: rgb(214, 215, 216);
-        }
-
-        .section{
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-            justify-content: center;
-            align-items: center;
-            margin: 50px 0;
-        }
-
-        .content{
-            width: 1300px;
-            height: 700px;
-            margin: 20px;
-            margin-left: 70px;
-            box-sizing: border-box;
-            float: left;
-            text-align: center;
-            border-radius: 20px;
-            cursor: pointer;
-            padding-top: 10px;
-            box-shadow: 0 0px 28px rgba(255, 255, 255, 0.25), 0 5px 10px rgba(255, 255, 255, 0.22);
-            transition: .4s;
-            background-color:black;
-        }
-        .content:hover{
-            box-shadow: 0 0px 6px rgba(255, 255, 255, 0.16), 0 3px 6px rgba(255, 255, 255, 0.23);
-            transform: translate(0px -8px);
-        }
-
-        button{
-            text-align: center;
-            background-color: rgb(0, 219, 219);
-            color: aliceblue;
-            font-size: 30px;
-            width: 100%;
-            padding: 25px;
-            border: 0;
-            outline: none;
-            cursor: pointer;
-            margin-top: 14px;
-            border-bottom-right-radius: 20px;
-            border-bottom-left-radius: 20px; 
-            font-family: Verdana, Geneva, Tahoma, sans-serif;       
-        }
-        
-        button:hover{
-          background-color:gold;
-            color: aliceblue;
-            font-size: 35px;
-            padding: 21px;
-        }
-
-        img{
-          margin: auto;
-        }
-
-        .add{
-          width: 300px;
-          height: 120px;
-          margin-top: -15px;
-        }
-
-        .car{
-          color:aliceblue; 
-          height: 50px; margin-top: 25px;
-        }
-
+    li{
+        margin-left: 50px;
+    }
+    li:first-child{
+        margin-top: 40px;
+    }
     </style>
+</head>
+<body>
+    <h1>
+             <C>   Чернівецький національний університет імені Юрія Федьковича<br>
+Навчально-науковий інститут фізико-технічних та комп’ютерних наук<br>
+Кафедра комп’ютерних наук <br></C>
+<br><br><br><br><br><br><br><br>
+
+<R>Звіт<br>
+про виконання лабораторної роботи No5<br>
+«Проектування Web-документів. Оформлення – CSS (частина 1).<br>
+Селектори. Правила. Директиви.»<br>
+з дисципліни<br>
+«Веб - дизайн, веб - прошрамування»</R>
+<br><br><br><br><br><br><br><br><br><br>
+    </h1>
+
+<h2>
+<R>Виконав: студент 241 групи<br>
+Обершт Валентина Василівна<br>
+Перевірив: канд.фіз.-мат. наук,<br>
+доцент Лазорик В.В.<br>
+Оцінка:<br>
+Дата захисту: 12.09.2023</R>
+<br><br><br><br><br><br><br><br><br>
+</h2>
+
+<h1>Чернівці 2023</h1>
+</h1>
 
 
-   <header class="Name" id="name">
-    <ruby style="margin-left: 50px; line-height: 35px; color: aliceblue;">Autoforyou</ruby>
-    <div class="Name" id="Name">
-      <br>
-      <h1 class="Name">
-          Autowin
-      </h1>
-      
-      <h2 class="Name1">
-        <span style="color: gold;">Car</span> news from the USA
-      </h2>
-      <br><br>
-    </div>
-  </header>
 
-  <div>
-  <p>
-    <img src="https://preview.redd.it/4k-wallpaper-sports-cars-on-track-v0-3kgox8x929sa1.jpg?width=3840&format=pjpg&auto=webp&s=3431552ecce4b0d74959656baee479e6b89eb4a9" alt="car" 
-      title="car" usemap="#car" />
-      <map name="car">
-        <area shape="rect" coords="0,0,2000,3000" href="https://preview.redd.it/4k-wallpaper-sports-cars-on-track-v0-3kgox8x929sa1.jpg?width=3840&format=pjpg&auto=webp&s=3431552ecce4b0d74959656baee479e6b89eb4a9" 
-      alt="car" />
-      </map>
-      
-    </p>
- 
- <h2 style="font-size: 50px; margin-top: 20px;">We find your <ins datetime="local" style="color: gold;">dream</ins> car <sup id="tm" lang="en"> <small>TM</small></sup></h2>
-
-  <time style="color: aliceblue;" lang="en" class="time"></time>
-
-  <marquee class="car" truespeed="on" direction="right" loop="auto" scrolldealy="5"><pre>───==≡≡ ō͡≡o           ───==≡≡ ō͡≡o           ───==≡≡ ō͡≡o           ───==≡≡ ō͡≡o           ───==≡≡ ō͡≡o           ───==≡≡ ō͡≡o           ───==≡≡ ō͡≡o           ───==≡≡ ō͡≡o           ───==≡≡ ō͡≡o           ───==≡≡ ō͡≡o           ───==≡≡ ō͡≡o           ───==≡≡ ō͡≡o           ───==≡≡ ō͡≡o           ───==≡≡ ō͡≡o           ───==≡≡ ō͡≡o           ───==≡≡ ō͡≡o</pre></marquee>
+<hr width="100%" size="3" color="black">
+<br><br><br>
+<h3> Селектори, правила та значення, які були використанні</h3>
 
 
-  <section style="color: aliceblue;" title="section">
+<h2>Lab3</h2>
+<ol>
+    <li>
+        <h4>ul атрибути - type, compact, title, value, start. Наприклад, у вправі 2 class ="pr". У css - .per{}, li{}, li li{}</h4>
+    </li>
 
-    <div class="content">
-      <img style=" width: 1000px; clip-path: inset(60px 0px 80px 0px); margin-top: -50px;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXd-9WO8-EQu_2rW_s_-8LBROx0nIWCoWbqGlKNrOWSG6AW_Zh1Ig5Il8zptdM2u4zVud2F97dSO1UmtaX8FPycG9SaKYZBpZKv4eqTNXUVM1Ot3Dc3XLIgW4ShgPc1fv8yCuRJFgGz2-3dhuT1YjzqioDRCeD3e_oXOVoVCw6WSXAumquSgWvG6wU/s3840/car-ai-generated-wallppaper-4k.png"/>
-      <h3 style="margin-top: -60px;">Futuristic luxury sports car</h3><br>
-      <h4>A new sports car unveiled today will shock you.</h4>
-      <button class="go" onclick="location.href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXd-9WO8-EQu_2rW_s_-8LBROx0nIWCoWbqGlKNrOWSG6AW_Zh1Ig5Il8zptdM2u4zVud2F97dSO1UmtaX8FPycG9SaKYZBpZKv4eqTNXUVM1Ot3Dc3XLIgW4ShgPc1fv8yCuRJFgGz2-3dhuT1YjzqioDRCeD3e_oXOVoVCw6WSXAumquSgWvG6wU/s3840/car-ai-generated-wallppaper-4k.png'">Details</button>
-   </div>
+    <li>
+        <h4>ol атрибути - title, style, id, type="A", lang. Наприклад, у вправі 1 id ="app".</h4>
+    </li>
 
-   <div class="content">
-    <img style=" width: 1000px; clip-path: inset(60px 0px 80px 0px); margin-top: -50px;" src="https://wallpapercave.com/wp/wp8162634.jpg"/>
-    <h3 style="margin-top: -60px;">The new favourite raver among us!!!</h3><br>
-    <h4>A new sportsmen anong us. He show him talent on Championate </h4>
-    <button class="go" onclick="location.href='https://wallpapercave.com/wp/wp8162634.jpg'">Details</button>
-   </div>
+    <li>
+        <h4>li атрибути - style, start, value. Наприклад, у вправі 1 - class="item". У css - .item{} </h4>
+    </li>
 
-   <div class="content">
-    <img style=" width: 1000px; clip-path: inset(60px 0px 80px 0px); margin-top: -50px;" src="https://e0.pxfuel.com/wallpapers/330/253/desktop-wallpaper-nfs-heat-black-car.jpg"/>
-    <h3 style="margin-top: -60px;">The most anticipated night race</h3><br>
-    <h4>Tommoro will be the most anticipated night race </h4>
-    <button class="go" onclick="location.href='https://e0.pxfuel.com/wallpapers/330/253/desktop-wallpaper-nfs-heat-black-car.jpg'">Details</button>
-   </div>
+    <li>
+        <h4>dl атрибути - style , title. Наприклад, у вправі 1 - title="d". У css - dl{} </h4>
+    </li>
 
-  </section>
+    <li>
+        <h4>dt атрибути - class, id, lang. Наприклад, у вправі 1 class ="dt". У css - dt{}</h4>
+    </li>
+
+    <li>
+        <h4>dir атрибути - id. Наприклад, у вправі 1 у p</h4>
+    </li>
+
+    <li>
+        <h4>nav атрибути - class. Наприклад, у вправі 1 class ="navig". У css - nav{}</h4>
+    </li>
+
+    <li>
+        <h4>marquee атрибути - class, height , hspace , truespeed , loop , scrolldelay. Наприклад, у вправі 3 class ="car". У css - car{}</h4>
+    </li>
+
+    <li>
+        <h4>bdi атрибути - class. Наприклад, у вправі 1 class ="bdi". У css - bdi{}</h4>
+    </li>
+
+    <li>
+        <h4>a атрибути - title, type, download , coords , class, accesskey, lang. Наприклад, у вправі 1 class="ph"</h4>
+    </li>
+
+    <li>
+        <h4>link атрибути - dir, type, id, sizes , title. Наприклад, у вправі 1 id="link"</h4>
+    </li>
+
+    <li>
+        <h4>command атрибути - dir, title, style. Наприклад, у вправі 1. У css - command{}</h4>
+    </li>
+    
+    
+    
+</ol>
 
 
-  <div class="add">
-    <h4>Add info</h4>
-  <p style="color: aliceblue; margin-left: 50px;"><bdo lang="bdo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddoe<wbr>iusmod tempor incididunt ut</bdo></p>
-  </div>
 
+<h2>Lab2</h2>
+<ol>
+    <li>
+        <h4>Селектори - ідентифікаторів. Наприклад, у вправі 1 id="CP". У css має такий вигляд: #CP{} </h4>
+    </li>
+
+    <li>
+        <h4>Селектори - класів. Наприклад, у вправі 2 class="content". У css - .content{} </h4>
+    </li>
+
+    <li>
+        <h4>Селектори - контекстний(спадкоємців). Наприклад, у вправі 1 - h4 містить u. У css - h4{} </h4>
+    </li>
+
+    <li>
+        <h4>Селектори - сусідів. Наприклад, у вправі 2 h3 містить сусідні селектори em і dfn.</h4>
+    </li>
+
+    <li>
+        <h4>Селектори - атрибутів:[attr] . Наприклад, у вправі 2 q містить lang. У css - q[lang]{} </h4>
+    </li>
+
+    <li>
+        <h4>Селектори - атрибутів:[attr=value]. Наприклад, у вправі 2 abbr містить lang="en". У css - abbr[lang="en"]{} </h4>
+    </li>
+
+    <li>
+        <h4>Псевдокласи::first-child. Наприклад, у вправі 1 h4. У css -h4:first-child{} </h4>
+    </li>
+
+    <li>
+        <h4>Псевдокласи::last-of-type. Наприклад, у вправі 2 h4. У css - h4:last-of-type{} </h4>
+    </li>
+
+    <li>
+        <h4>Псевдоелементи ::after. Наприклад, у вправі 1 клас Contacts. У css - .Contacts::after{} </h4>
+    </li>
+    
+    <li>
+        <h4>Margin:<розмір>. Наприклад, у вправі 2 у .gallery. У css - margin: 50px 0; </h4>
+    </li>
+
+    <li>
+        <h4>Padding. Наприклад, у вправі 2 p{}. У css - padding: 0 8px; </h4>
+    </li>
+
+    <li>
+        <h4>Border. Наприклад, у вправі 2 button{}. У css - border: 0; </h4>
+    </li>
+   
+    <li>
+        <h4>Позиціювання елементiв: display. Наприклад, у вправі 2 .gallery{}. У css - display: flex; </h4>
+    </li>
+
+    <li>
+        <h4>Позиціювання елементiв:float: left. Наприклад, у вправі 2 .content{}. У css - float: left; </h4>
+    </li>
+
+    <li>
+        <h4>Візуалізація елементiв:height. Наприклад, у вправі 2 img{}. У css - height: 200px; </h4>
+    </li>
+
+    <li>
+        <h4>Візуалізація елементiв: line-height. Наприклад, у вправі 2 legend{}. У css - line-height: 25px; </h4>
+    </li>
+
+    <li>
+        <h4>Колір фон:color. Наприклад, у вправі 1 p{}. У css - color:burlywood </h4>
+    </li>
+
+    <li>
+        <h4>Колір фон:background-color. Наприклад, у вправі 2 body{}. У css - background-color: antiquewhite; </h4>
+    </li>
+
+    
+</ol>
 
 </body>
 </html>
