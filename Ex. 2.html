@@ -506,21 +506,23 @@ option{
     <option value="number3" dir="auto" id="number" label="3" title="number"></option>
    </select></p>
    <br>
+  <label for="brand">Бренд:</label>
+<input list="bra" id="brand" />
 
-   <label for="text">Бренд: </label>
-   <datalist id="brand" style="color: aliceblue;">
-    <option value="Sauza 901"></option>
-    <option value="Haig Club"></option>
-    <option value="Maroon 5"></option>
-    <option value="Diageo"></option>
-    <option value="Ciroc"></option>
-  </datalist>
+<datalist id="bra">
+  <option value=" Sauza 901"></option>
+  <option value=" Haig Club"></option>
+  <option value=" Haig Club"></option>
+  <option value=" Maroon 5"></option>
+  <option value=" Diageo"></option>
+</datalist>
 
-  
+
+  <br><br>
   <label for="text">К-ть: </label>
-   <input type="range" id="b" name="b" value="100" /> +
-  <input type="number" id="a" name="a" value="1" /> =
-  <output name="result" for="a b">5</output>
+  <input type="range" id="a" name="a" value="50" /> +
+  <input type="number" id="b" name="b" value="10" /> =
+  <output style="color: aliceblue;" class="out" id="out" for="a b">60</output>
 
       <div class="form">
         <label for="list">Список побажань: </label>
@@ -549,18 +551,17 @@ option{
     <textarea id="wishes" name="wishes" rows="3" dir="auto" cols="30" style="margin-top: 15px;" form="text" minlength="0" placeholder="
                      Your wishes"></textarea>
     <br><br>
-
-      <button class="but" style="color:gold; background-color: aliceblue;" type="submit" formaction="admin.asp" formmethod="post" autofocus formnovalidate>Надіслати</button>
-      
-      <br><br>
-      <label for="photo">Фото напою: </label>
-        <input type="image" name="photo" accept="image" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dietdoctor.com%2Flow-carb%2Falcohol&psig=AOvVaw1aicXe_EW4Xz7ZcoJFj1eE&ust=1696187377437000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPia7rSE04EDFQAAAAAdAAAAABAZ" />
-      <div class="form">
+    <keygen class="key" title="key" style="color:black;" keytype="RSA" disabled>
+    <button class="but" style="color:gold; background-color: aliceblue;" type="submit" formaction="admin.asp" formmethod="post" autofocus formnovalidate>Надіслати</button>
+    <br><br>
+    <label for="photo">Фото напою: </label>
+    <input type="image" name="photo" accept="image" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dietdoctor.com%2Flow-carb%2Falcohol&psig=AOvVaw1aicXe_EW4Xz7ZcoJFj1eE&ust=1696187377437000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPia7rSE04EDFQAAAAAdAAAAABAZ" />
+    <div class="form">
       </div>
     </form>
 
 
-    <br>
+    <br><br><br>
     <h3>Контакти</h3>
     <address lang="uk" class="contact"> <a href="tel:+0000000000">(000) 000-0000</a> </address>
 
